@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="greeter">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1694712342786</CreatedAt>
+  <LastModifiedAt>1694712342786</LastModifiedAt>
+  <BasePaths>/helloworld.Greeter</BasePaths>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>
