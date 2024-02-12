@@ -54,6 +54,7 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2
 * Build the binaries manually
 ```shell
 cd apigee-grpc
+mkdir -p pkg/greeter/generated/pb
 go generate ./...
 go build -o ./build/grpc-greeter-tls ./cmd/tls/grpc.go
 go build -o ./build/grpc-greeter-plaintext ./cmd/plaintext/grpc.go
